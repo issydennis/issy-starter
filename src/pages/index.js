@@ -1,3 +1,11 @@
-import React from "react"
+import React, { Component } from "react";
 
-export default () => <div>Hello world!</div>
+class IndexPage extends Component {
+    render() {
+        return (
+            <div>Welcome to Issy's Starter</div>
+        )
+    }
+}
+
+export default IndexPage;

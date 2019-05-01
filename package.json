@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "issy-starter",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A basic starter with Netlify CMS, gatsby-image and react-helmet.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,8 +14,19 @@
   },
   "dependencies": {
     "gatsby": "^2.3.34",
+    "gatsby-background-image": "^0.4.3",
+    "gatsby-image": "^2.0.41",
+    "gatsby-plugin-netlify-cms": "^3.0.18",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "netlify-cms": "^2.9.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "prettier": "^1.17.0"
